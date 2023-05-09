@@ -21,7 +21,7 @@ try {
    };
 
    if (Date.now() - lastUpdateTime >= 1 * 3600000) {
-      policyGroupName(`${Group}`) !== "Direct 🔸" && $surge.setSelectGroupPolicy(`${Group}`, "Direct 🔸");
+      policyGroupName(`${Group}`) !== "Direct " && $surge.setSelectGroupPolicy(`${Group}`, "Direct ");
    }
 
    $done({ matched: true });
